@@ -1,0 +1,326 @@
+.site-header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  /* padding: 60px 20px; */
+  width: 100%;
+  background-color: white;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  z-index: 100;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  /* text-align: center; */
+}
+
+section {
+  height: 500px;
+  width: 100%;
+}
+
+section:nth-child(odd){
+  background-color: lightgray;
+}
+
+.gnav-menu {
+  display: flex;
+  /* margin: 0 0 0 auto; */
+  justify-content: space-between;
+  /* background-color: blue; */
+  width:  50%;
+  margin-left: auto;
+}
+
+.gnav-menu-item {
+  margin-left: 20px;
+  list-style: none;
+}
+
+.gnav-menu-item:last-child {
+  margin-right: 20px;
+  list-style: none;
+}
+
+/* img.header-logo {
+  width: 20%;
+  height: 20%;
+} */
+
+div.test-log {
+  width: 100px;
+  background-color: red;
+}
+
+.header-site-nav {
+  background-color: aqua;
+  display:  flex;
+  justify-content: space-between; 
+  
+}
+
+div.Cap-eng {
+  color: red;
+  font-size: 24px;
+  font-family: 'Square Peg',
+  cursive;
+}
+
+main {
+  /* padding-top: 100px; */
+  /* background-color: aqua; */
+  width: 90%;
+  left: 10%;
+  top: 200px;
+  margin: 0 auto;
+}
+
+img.top-image {
+  width: 80%;
+  margin-left:auto;
+  text-align: right;
+  /* position:  relative; */
+  display: block;
+}
+
+div.catch-copy {
+  position: absolute;
+  top: 300px;
+  font-size: 48px;
+font-family: 'Square Peg',
+cursive;
+color:  red;
+}
+
+section#top {
+  width:100%;
+  height: 700px;
+}
+
+span.catch-copy-blue {
+  color: blue;
+}
+
+td:nth-of-type(1){
+  width: 100px;
+  background-color: gray;
+}
+
+td:nth-of-type(2){
+  width: 200px;
+  background-color: white;
+}
+
+table.company-table{
+  border-color: black;
+  border-style: solid;
+  border-width: 0px;
+  border-collapse: collapse;
+}
+
+div.catch-copy-jp {
+  position: absolute;
+  top: 500px;
+  color: red;
+  font-size:  24px;
+}
+span.blue-text {
+  color: blue;
+}
+
+div.inc-text {
+  position: absolute;
+  top: 550px;
+}
+
+span.news-icon{
+  width: 100px;
+  background-color: red;
+  border-radius: 10px
+}
+
+div.about-container {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+div.about-text {
+  width: 29%;
+  /* background-color: red; */
+  overflow-wrap: normal;
+}
+
+.grid__parent {
+  width: 100%;
+  height: 80%;
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-template-rows: 1fr 1fr;
+}
+
+.service-grid-box1 {
+grid-column: 1;
+grid-row: 1 / span 2;
+background-color:  red;
+text-align: center;
+}
+
+.service-grid-box2 {
+grid-column: 2;
+grid-row: 1;
+background-color: blue;
+}
+
+.service-grid-box3 {
+grid-column: 2;
+grid-row: 2;
+background-color: green;
+}
+
+img.service {
+  float: left;
+  margin: 0 auto;
+}
+
+div.service {
+  width:  60%;
+  float: left;
+  overflow-wrap: break-word;
+  text-align: center;
+}
+
+span.service {
+  /* font-size: 48px; */
+  font-weight: bold;
+  text-align: center;
+}
+
+div.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+img.blog-card-item {
+  width: 100%;
+  border-radius:  50px 50px 0 0;
+}
+
+div.blog-card-item {
+  width: 30%;
+/* background-color: aqua; */
+}
+
+div.blog-card-item-caption {
+  border-radius: 50px 0 0 0;
+  background-color: blue;
+  position: absolute;
+  width: 10%;
+  height: 50px;
+  line-height: 50px;
+  transform: translate(0,-250px);
+  text-align: center;
+  font-size:  24px;
+  color: white;
+}
+
+div.blog-card-item-date {
+  float: left;
+}
+
+div.blog-card-item-tag {
+  float: left;
+  margin-right: 0px;
+}
+
+div.blog-card-item-footer {
+  display:  flex;
+  justify-content: space-between;
+}
+
+.blog-button {
+  position: relative;
+  width: 20%;
+  height: 50px;
+  border-radius: 10px 10px 10px 10px;
+  border-color: magenta;
+  border-width: 1px;
+  border-style: solid;
+  background-color: white;
+  justify-content:  center;
+  text-align: center;
+  line-height: 50px;
+  left: 40%;
+}
+
+section#Blog {
+  justify-content: center;
+}
+
+div.company-container {
+  width: 100%;
+  height: 60%;
+  background-color: purple;
+  position: relative;
+}
+
+img.company {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+div.company-recruit-text {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  color: white;
+  font-size: 36px;
+  transform: translate(-50%,-50%);
+
+}
+
+div.company-interview-text {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  color: white;
+  font-size: 36px;
+transform: translate(-50%, -50%);
+}
+
+div.toiawase {
+  width: 100%;
+  height: 40%;
+  top:60%;
+  text-align: center;
+  /* background-color: aquamarine; */
+  /* position: relative; */
+}
+
+div.vertical-line {
+  /* position: absolute; */
+  position: relative;
+  width: 1px;
+  height: 50px;
+  left:50%;
+  background-color: purple;
+}
+
+div.inquiry-button {
+  /* position: absolute; */
+  position: relative;
+  background-color: magenta;
+  border-radius: 20px 20px 20px 20px;
+  margin-top: 20px;
+  /* top:70%; */
+  width: 20%;
+  left: 50%;
+  height: 100px;
+  transform: translate(-50%,-0%);
+  line-height: 100px;
+  box-shadow: 15px 15px 0 rgba(0, 0, 0, .5)
+}
