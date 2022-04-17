@@ -22,7 +22,7 @@ section {
 }
 
 section:nth-child(odd){
-  background-color: lightgray;
+  /* background-color: lightgray; */
 }
 
 .gnav-menu {
@@ -51,11 +51,13 @@ section:nth-child(odd){
 
 div.test-log {
   width: 100px;
-  background-color: red;
+  /* background-color: red; */
+  /* margin: 20px 20px 20px 20px; */
+  padding: 20px 20px 20px 20px;
 }
 
 .header-site-nav {
-  background-color: aqua;
+  /* background-color: aqua; */
   display:  flex;
   justify-content: space-between; 
   
@@ -105,12 +107,12 @@ span.catch-copy-blue {
 
 td:nth-of-type(1){
   width: 100px;
-  background-color: gray;
+  /* background-color: gray; */
 }
 
 td:nth-of-type(2){
   width: 200px;
-  background-color: white;
+  /* background-color: white; */
 }
 
 table.company-table{
@@ -137,7 +139,7 @@ div.inc-text {
 
 span.news-icon{
   width: 100px;
-  background-color: red;
+  /* background-color: red; */
   border-radius: 10px
 }
 
@@ -165,20 +167,20 @@ div.about-text {
 .service-grid-box1 {
 grid-column: 1;
 grid-row: 1 / span 2;
-background-color:  red;
+/* background-color:  red; */
 text-align: center;
 }
 
 .service-grid-box2 {
 grid-column: 2;
 grid-row: 1;
-background-color: blue;
+/* background-color: blue; */
 }
 
 .service-grid-box3 {
 grid-column: 2;
 grid-row: 2;
-background-color: green;
+/* background-color: green; */
 }
 
 img.service {
@@ -216,7 +218,7 @@ div.blog-card-item {
 
 div.blog-card-item-caption {
   border-radius: 50px 0 0 0;
-  background-color: blue;
+  /* background-color: blue; */
   position: absolute;
   width: 10%;
   height: 50px;
@@ -249,7 +251,7 @@ div.blog-card-item-footer {
   border-color: magenta;
   border-width: 1px;
   border-style: solid;
-  background-color: white;
+  /* background-color: white; */
   justify-content:  center;
   text-align: center;
   line-height: 50px;
@@ -263,7 +265,7 @@ section#Blog {
 div.company-container {
   width: 100%;
   height: 60%;
-  background-color: purple;
+  /* background-color: purple; */
   position: relative;
 }
 
@@ -307,13 +309,13 @@ div.vertical-line {
   width: 1px;
   height: 50px;
   left:50%;
-  background-color: purple;
+  /* background-color: purple; */
 }
 
 div.inquiry-button {
   /* position: absolute; */
   position: relative;
-  background-color: magenta;
+  /* background-color: magenta; */
   border-radius: 20px 20px 20px 20px;
   margin-top: 20px;
   /* top:70%; */
