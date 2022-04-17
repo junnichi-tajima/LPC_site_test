@@ -217,12 +217,13 @@ div.card-container {
 img.blog-card-item {
   width: 100%;
   border-radius:  50px 50px 0 0;
-  position: relative;
+
 }
 
 div.blog-card-item {
   width: 30%;
 /* background-color: aqua; */
+  position: relative;
 }
 
 div.blog-card-item-caption {
@@ -230,7 +231,7 @@ div.blog-card-item-caption {
   background-color: blue;
   position: absolute;
   top: 0%;
-  width: 10%;
+  width: 20%;
   height: 50px;
   line-height: 50px;
   /* transform: translate(0,-250px); */
