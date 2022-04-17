@@ -68,7 +68,7 @@ div.test-log {
 div.Cap-eng {
   color: red;
   font-size: 24px;
-  text-align: center;
+  /* text-align: center; */
   font-family: 'Square Peg',
   cursive;
 }
@@ -147,7 +147,7 @@ span.news-icon{
 }
 
 
-h2.about-caption {
+.about-caption {
   text-align: center;
 }
 
