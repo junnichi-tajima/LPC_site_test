@@ -197,10 +197,10 @@ div.about-text {
   overflow-wrap: normal;
 }
 
-/* section#Service {
-  justify-content: center;
-  text-align: center;
-} */
+section#Service {
+  /* justify-content: center; */
+  width: 100%;
+}
 
 .grid__parent {
   width: 80%;
@@ -208,10 +208,9 @@ div.about-text {
   display: grid;
   grid-template-columns: 40% 40%;
   grid-template-rows: 1fr 1fr;
-  left: 50%;
   margin-left: 50%;
-  transform:  translate(-50%,0);
-  align-content: center;
+  transform:  translate(-40%,0);
+  /* align-content: center; */
 }
 
 .service-grid-box1 {
@@ -380,4 +379,8 @@ div.inquiry-button {
   transform: translate(-50%,-0%);
   line-height: 100px;
   box-shadow: 15px 15px 0 rgba(0, 0, 0, .5)
+}
+
+footer {
+  text-align: center;
 }
