@@ -267,10 +267,13 @@ div.blog-card-item {
   width: 30%;
 /* background-color: aqua; */
   position: relative;
+  background-color:  white;
+  /* padding: 10px; */
+  border-radius: 50px 50px 0 0;
 }
 
 div.blog-card-item-caption {
-  border-radius: 50px 0 0 0;
+  border-radius: 50px 50px 0 0;
   background-color: blue;
   position: absolute;
   top: 0%;
@@ -283,13 +286,18 @@ div.blog-card-item-caption {
   color: white;
 }
 
+div.blog-card-item-title {
+  margin: 10px;
+}
+
 div.blog-card-item-date {
   float: left;
+  margin: 10px;
 }
 
 div.blog-card-item-tag {
   float: left;
-  margin-right: 0px;
+  margin: 10px;
 }
 
 div.blog-card-item-footer {
