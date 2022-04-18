@@ -21,8 +21,16 @@ section {
   width: 100%;
 }
 
-section:nth-child(odd){
-  /* background-color: lightgray; */
+/* section:nth-child(odd){
+  /* background-color: lightgray;
+} */
+
+section#Blog {
+  background-color: lightgray;
+}
+
+section#About {
+  background-color: lightgray;
 }
 
 .gnav-menu {
@@ -86,7 +94,7 @@ img.top-image {
   width: 80%;
   margin-left:auto;
   text-align: right;
-  /* position:  relative; */
+  position:  relative;
   display: block;
 }
 
@@ -101,7 +109,7 @@ color:  red;
 
 section#top {
   width:100%;
-  height: 700px;
+  height: 1000px;
 }
 
 span.catch-copy-blue {
@@ -118,11 +126,29 @@ td:nth-of-type(2){
   /* background-color: white; */
 }
 
+section#Company {
+  /* background-color: gray; */
+  text-align: center;
+  position: relative;
+}
+
 table.company-table{
+  display: table;
   border-color: black;
   border-style: solid;
   border-width: 0px;
   border-collapse: collapse;
+  background-color: aqua;
+  margin-left: 50%;
+  transform: translate(-50%,0%);
+  /* font-size: 24px; */
+}
+
+table.company-table tr {
+  border: 1px solid  black;
+}
+table.company-table td {
+  border: 1px solid black;
 }
 
 div.catch-copy-jp {
@@ -138,6 +164,13 @@ span.blue-text {
 div.inc-text {
   position: absolute;
   top: 550px;
+}
+
+section#News {
+  width: 80%;
+  top:20%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 span.news-icon{
@@ -164,13 +197,21 @@ div.about-text {
   overflow-wrap: normal;
 }
 
+/* section#Service {
+  justify-content: center;
+  text-align: center;
+} */
+
 .grid__parent {
   width: 80%;
   height: 80%;
   display: grid;
   grid-template-columns: 40% 40%;
   grid-template-rows: 1fr 1fr;
-  /* background-color: aqua; */
+  left: 50%;
+  margin-left: 50%;
+  transform:  translate(-50%,0);
+  align-content: center;
 }
 
 .service-grid-box1 {
@@ -213,6 +254,8 @@ span.service {
 div.card-container {
   display: flex;
   justify-content: space-between;
+  /* margin-left: 100px;
+  margin-right: 100px; */
 }
 
 img.blog-card-item {
